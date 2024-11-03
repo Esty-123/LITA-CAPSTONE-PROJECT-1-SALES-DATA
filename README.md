@@ -38,4 +38,8 @@ Its involves the ecploring of data to answer some question such as
 - What is the sum of revenue by region?
 - what is the average revenue by products?
 
-### Data Anaysis
+### Data Anaysis 
+This is where we conclude some basic lines of type codes, Queries or even DAX expressions use during the analysis
+
+```` SQL
+
