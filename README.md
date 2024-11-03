@@ -17,7 +17,7 @@ This is the primary source of data used here is Sales Data. xlxs and  this is an
 - GitHub for Portfolio building
 - Data Visualizatio(Power Business Intelligence)
   
-### Data Cleaning and Exploration
+### Data Cleaning and Preparation
 
 This process focuses on preparing the dataset for analysis by identifying and rectifying inaccuracies, inconsistencies, and errors. Key steps include:
 
@@ -31,3 +31,11 @@ This process focuses on preparing the dataset for analysis by identifying and re
 
 5. Data Transformation: Converting data types and normalizing values as needed.
 
+### Exploratory Data Analysis
+Its involves the ecploring of data to answer some question such as
+- What  is the overall trendstrends? 
+- which product are the top seller?
+- What is the sum of revenue by region?
+- what is the average revenue by products?
+
+### Data Anaysis
