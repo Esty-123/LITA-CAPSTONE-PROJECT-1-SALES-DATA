@@ -10,10 +10,24 @@ This is the primary source of data used here is Sales Data. xlxs and  this is an
 
 ### Tools Used
 - Microsoft Excel
-1. For data cleaning
-2. For Data Organization
-3. For Data Anaysis
-4. For Visualization
+1. For Data cleaning
+3. For Anaysis
+4. For Data Visualization
 - SQL-Structured Query Language for Querying Data.
 - GitHub for Portfolio building
-- Data Visualizatio(Power Business Intelligence) 
+- Data Visualizatio(Power Business Intelligence)
+  
+### Data Cleaning and Exploration
+
+This process focuses on preparing the dataset for analysis by identifying and rectifying inaccuracies, inconsistencies, and errors. Key steps include:
+
+1. Handling Missing Values: Identifying and addressing missing data through removal or imputation.
+
+2. Removing Duplicates: Ensuring that each record is unique by eliminating duplicate entries.
+
+3. Correcting Errors: Fixing typographical errors, formatting issues, and out-of-range values.
+
+4. Filtering Outliers: Identifying and deciding how to manage outliers that may skew results.
+
+5. Data Transformation: Converting data types and normalizing values as needed.
+
