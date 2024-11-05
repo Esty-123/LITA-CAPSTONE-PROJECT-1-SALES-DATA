@@ -7,9 +7,11 @@
 This project focuses on analyzing the sales performance of Retail Store,using historical sales data. The analysis will uncover key trends in product sales, customer preferences, and seasonal variations. By examining metrics such as total revenue, average transaction value, and sales by category, region, the project aims to identify factors driving sales growth and opportunities for improving profitability. The insights gained will help the retail store optimize inventory management, promotional strategies, and customer engagement for increased sales performance.
 
 ### Data Source
+---
 This is the primary source of data used here is Sales Data. xlxs and  this is an open data that can be freely downloaded online such as Kaggle or FRED or any other resprespostry site. 
 
 ### Tools Used
+---
 - Microsoft Excel[Download Here](https://wwww.microsoft.com)
 1. For Data cleaning
 3. For Anaysis
@@ -19,7 +21,7 @@ This is the primary source of data used here is Sales Data. xlxs and  this is an
 - Data Visualizatio(Power Business Intelligence)
   
 ### Data Cleaning and Preparation
-
+---
 This process focuses on preparing the dataset for analysis by identifying and rectifying inaccuracies, inconsistencies, and errors. Key steps include:
 
 1. Handling Missing Values: Identifying and addressing missing data through removal or imputation.
@@ -33,6 +35,7 @@ This process focuses on preparing the dataset for analysis by identifying and re
 5. Data Transformation: Converting data types and normalizing values as needed.
 
 ### Exploratory Data Analysis
+---
 Its involves the ecploring of data to answer some question such as
 - What  is the overall trendstrends? 
 - which product are the top seller?
@@ -43,7 +46,8 @@ Its involves the ecploring of data to answer some question such as
 
   
 
-### Data Anaysis 
+### Data Anaysis
+---
 This is where we conclude some basic lines of type codes, Queries or even DAX expressions use during the analysis
 
 ```` SQL
