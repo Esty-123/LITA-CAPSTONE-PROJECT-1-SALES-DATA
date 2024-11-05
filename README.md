@@ -9,7 +9,7 @@ This project focuses on analyzing the sales performance of Retail Store,using hi
 This is the primary source of data used here is Sales Data. xlxs and  this is an open data that can be freely downloaded online such as Kaggle or FRED or any other resprespostry site. 
 
 ### Tools Used
-- Microsoft Excel
+- Microsoft Excel[Download Here](https://wwww.microsoft.com)
 1. For Data cleaning
 3. For Anaysis
 4. For Data Visualization
@@ -37,6 +37,10 @@ Its involves the ecploring of data to answer some question such as
 - which product are the top seller?
 - What is the sum of revenue by region?
 - what is the average revenue by products?
+
+
+
+  
 
 ### Data Anaysis 
 This is where we conclude some basic lines of type codes, Queries or even DAX expressions use during the analysis
