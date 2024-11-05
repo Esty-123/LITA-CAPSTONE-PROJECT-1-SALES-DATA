@@ -66,6 +66,16 @@ Select*from[dbo].[Sales Data 1]
 Select Product,sum(total_Revenue) AS 'total_sales'
 from [dbo].[Sales Data 1]
 group by product
+..... 2 The number of sales transactions in each region...
+Select Region, count(*) As Total_Transaction
+from[dbo].[Sales Data 1]
+group by Region
+
+...3 The highest-selling product by total sales value.
+select top 1 Product,sum(Total_Revenue) as Total_revenue
+from[dbo].[Sales Data 1]
+group by product
+
 
 
 ### Data Visualizaion
