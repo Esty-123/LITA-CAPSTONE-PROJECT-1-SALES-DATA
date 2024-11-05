@@ -3,10 +3,14 @@
 ### Project Title: Sales Performance Analysis of a Retail Store : Trends and Insights.
   [Project Overview](project-overview)
   Data Source
+  
   Tools Used
+  
   Data Cleaning and Preparation
+  
   Exploratory Data Analysis
-  Data Analysis
+  
+  [Data Analysis]{data-analysis}
 
 ### Project Overview
 ---
