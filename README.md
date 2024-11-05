@@ -113,6 +113,6 @@ LEFT JOIN[dbo].[Sales Data 1]s2 ON s1.
 WHERE
 s2.[product] IS NULL;
 
-### Data Visualizaion
+###Data Visualizaion
 
 ![Dashboard for Sales Performannce](https://github.com/user-attachments/assets/6f3c06bf-cca1-46f4-8d0d-98150ee7e30e)
