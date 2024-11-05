@@ -66,6 +66,7 @@ Select*from[dbo].[Sales Data 1]
 Select Product,sum(total_Revenue) AS 'total_sales'
 from [dbo].[Sales Data 1]
 group by product
+
 ..... 2 The number of sales transactions in each region...
 Select Region, count(*) As Total_Transaction
 from[dbo].[Sales Data 1]
@@ -75,6 +76,48 @@ group by Region
 select top 1 Product,sum(Total_Revenue) as Total_revenue
 from[dbo].[Sales Data 1]
 group by product
+
+.... 4 The total revenue per product
+
+Select Product,sum(total_Revenue) AS Total_Revenue
+from [dbo].[Sales Data 1]
+group by product
+.....5 monthly sales totals for the current year
+ select Month(Orderdate) as month,
+ sum([Total_revenue]) As monthly_sales
+ from[dbo].[Sales Data 1]
+ Where
+ year(Orderdate)=YEAR(getdate())
+ Group by MONTH(OrderDate)
+ ORDER BY MONTH;
+
+ ..... 6  The top 5 customers by total purchase amount....
+ Select top 5 Customer_Id,
+ SUM(total_revenue) AS 'Total_PurchaseAmount'
+ from[dbo].[Sales Data 1]
+ Group by Customer_Id
+ ORDER BY Total_PurchaseAmount DESC;
+
+
+ .... 7 The percentage of total sales contributed by each region.
+
+ Select Region,
+ sum(Total_Revenue) As total_revenue
+ 'sum'(Total_Revenue)* 1.0/(select 
+ SUM((Total_Revenue)
+ from[dbo].[Sales Data 1]*100 as percentageoftotalsales'
+ from[dbo].[Sales Data 1]
+ GROUP BY Region;
+
+ ...... 8 identify products with no sales in the last quarter
+ Select DISTINCT s1.[product]
+ FROM [dbo].[Sales Data 1]s1
+LEFT JOIN[dbo].[Sales Data 1]s2 ON s1.
+[product]=s2.[Product]AND s2.OrderDATE
+>=DATEADD(QUARTER,-1,GETDATE())
+WHERE
+s2.[product] IS NULL;
+
 
 
 
