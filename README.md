@@ -25,8 +25,8 @@ This is the primary source of data used here is Sales Data. xlxs and  this is an
 ---
 - Microsoft Excel[Download Here](https://wwww.microsoft.com)
 1. For Data cleaning
-3. For Anaysis
-4. For Data Visualization
+2. For Anaysis
+3. For Data Visualization
 - SQL-Structured Query Language for Querying Data.
 - GitHub for Portfolio building
 - Data Visualizatio(Power Business Intelligence)
@@ -118,5 +118,9 @@ WHERE
 s2.[product] IS NULL;
 
 ###Data Visualizaion
+
+![image](https://github.com/user-attachments/assets/02c2e1f2-4ad1-4f84-96c0-876de249ac3f)
+
+
 
 ![Dashboard for Sales Performannce](https://github.com/user-attachments/assets/6f3c06bf-cca1-46f4-8d0d-98150ee7e30e)
