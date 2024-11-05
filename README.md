@@ -1,13 +1,12 @@
 ## LITA-Captone Project One Documentation
 
 ### Project Title: Sales Performance Analysis of a Retail Store : Trends and Insights.
-### Project Outline
-1.  [Project Overview](project-overview)
-2.  Data Source
-3.  Data Source
-4.  Data Cleaning and Preparation
-5.  Exploratory Data Analysis
-6.  Data Analysis
+  [Project Overview](project-overview)
+  Data Source
+  Tools Used
+  Data Cleaning and Preparation
+  Exploratory Data Analysis
+  Data Analysis
 
 ### Project Overview
 ---
