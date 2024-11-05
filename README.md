@@ -49,11 +49,6 @@ Its involves the ecploring of data to answer some question such as
 - What is the sum of revenue by region?
 - what is the average revenue by products?
 
-  
-
-
-
-  
 
 ### Data Analysis
 ---
