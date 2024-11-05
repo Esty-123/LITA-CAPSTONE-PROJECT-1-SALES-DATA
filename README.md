@@ -1,6 +1,13 @@
 ## LITA-Captone Project One Documentation
 
-### Project Title: Sales Performance Analysis of a Retail Store : Trends and Insights. 
+### Project Title: Sales Performance Analysis of a Retail Store : Trends and Insights.
+### Project Outline
+1. Project Overview
+2.  Data Source
+3.  Data Source
+4.  Data Cleaning and Preparation
+5.  Exploratory Data Analysis
+6.  Data Analysis
 
 ### Project Overview
 ---
@@ -53,8 +60,15 @@ Its involves the ecploring of data to answer some question such as
 This is where we conclude some basic lines of type codes, Queries or even DAX expressions use during the analysis
 
 ```` SQL
+CREATE DATABASE LITA_CAPSTONE_PROJECT_ONE
+Select*from[dbo].[Sales Data 1]
+
 Select Product,sum(total_Revenue) AS 'total_sales'
 from [dbo].[Sales Data 1]
 group by product
+
+
+### Data Visualizaion
+---
 
 
