@@ -46,4 +46,8 @@ Its involves the ecploring of data to answer some question such as
 This is where we conclude some basic lines of type codes, Queries or even DAX expressions use during the analysis
 
 ```` SQL
+Select Product,sum(total_Revenue) AS 'total_sales'
+from [dbo].[Sales Data 1]
+group by product
+
 
